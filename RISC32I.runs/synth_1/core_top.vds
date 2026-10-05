@@ -1,0 +1,284 @@
+#-----------------------------------------------------------
+# Vivado v2025.2 (64-bit)
+# SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+# IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+# SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+# Start of session at: Fri Jun 19 02:04:58 2026
+# Process ID         : 13780
+# Current directory  : W:/Documents/Vivado/RISC32I/RISC32I.runs/synth_1
+# Command line       : vivado.exe -log core_top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source core_top.tcl
+# Log file           : W:/Documents/Vivado/RISC32I/RISC32I.runs/synth_1/core_top.vds
+# Journal file       : W:/Documents/Vivado/RISC32I/RISC32I.runs/synth_1\vivado.jou
+# Running On         : V-Omen
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26200
+# Processor Detail   : Intel(R) Core(TM) Ultra 7 255HX
+# CPU Frequency      : 2880 MHz
+# CPU Physical cores : 20
+# CPU Logical cores  : 20
+# Host memory        : 16558 MB
+# Swap memory        : 12285 MB
+# Total Virtual      : 28843 MB
+# Available Virtual  : 10680 MB
+#-----------------------------------------------------------
+source core_top.tcl -notrace
+Command: read_checkpoint -auto_incremental -incremental W:/Documents/Vivado/RISC32I/RISC32I.srcs/utils_1/imports/synth_1/core_top.dcp
+INFO: [Vivado 12-5825] Read reference checkpoint from W:/Documents/Vivado/RISC32I/RISC32I.srcs/utils_1/imports/synth_1/core_top.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
+Command: synth_design -top core_top -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 23716
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1072.430 ; gain = 528.082
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'core_top' [W:/Documents/Vivado/Generic_CPU_Core/Generic_CPU_Core.srcs/RISC32I/core_top.sv:3]
+INFO: [Synth 8-6157] synthesizing module 'program_counter' [W:/Documents/Vivado/Generic_CPU_Core/Generic_CPU_Core.srcs/RISC32I/program_counter.sv:4]
+INFO: [Synth 8-6155] done synthesizing module 'program_counter' (0#1) [W:/Documents/Vivado/Generic_CPU_Core/Generic_CPU_Core.srcs/RISC32I/program_counter.sv:4]
+INFO: [Synth 8-6157] synthesizing module 'if_stage' [W:/Documents/Vivado/Generic_CPU_Core/Generic_CPU_Core.srcs/RISC32I/if_stage.sv:3]
+INFO: [Synth 8-6155] done synthesizing module 'if_stage' (0#1) [W:/Documents/Vivado/Generic_CPU_Core/Generic_CPU_Core.srcs/RISC32I/if_stage.sv:3]
+INFO: [Synth 8-6157] synthesizing module 'instruction_memory' [W:/Documents/Vivado/Generic_CPU_Core/Generic_CPU_Core.srcs/RISC32I/instruction_memory.sv:3]
+INFO: [Synth 8-6155] done synthesizing module 'instruction_memory' (0#1) [W:/Documents/Vivado/Generic_CPU_Core/Generic_CPU_Core.srcs/RISC32I/instruction_memory.sv:3]
+INFO: [Synth 8-6157] synthesizing module 'if_id_pipe' [W:/Documents/Vivado/Generic_CPU_Core/Generic_CPU_Core.srcs/RISC32I/if_id_pipe.sv:3]
+INFO: [Synth 8-6155] done synthesizing module 'if_id_pipe' (0#1) [W:/Documents/Vivado/Generic_CPU_Core/Generic_CPU_Core.srcs/RISC32I/if_id_pipe.sv:3]
+INFO: [Synth 8-6157] synthesizing module 'decoder' [W:/Documents/Vivado/Generic_CPU_Core/Generic_CPU_Core.srcs/RISC32I/decoder.sv:3]
+INFO: [Synth 8-155] case statement is not full and has no default [W:/Documents/Vivado/Generic_CPU_Core/Generic_CPU_Core.srcs/RISC32I/decoder.sv:23]
+INFO: [Synth 8-6155] done synthesizing module 'decoder' (0#1) [W:/Documents/Vivado/Generic_CPU_Core/Generic_CPU_Core.srcs/RISC32I/decoder.sv:3]
+INFO: [Synth 8-6157] synthesizing module 'control_unit' [W:/Documents/Vivado/Generic_CPU_Core/Generic_CPU_Core.srcs/RISC32I/control_unit.sv:3]
+INFO: [Synth 8-155] case statement is not full and has no default [W:/Documents/Vivado/Generic_CPU_Core/Generic_CPU_Core.srcs/RISC32I/control_unit.sv:26]
+INFO: [Synth 8-6155] done synthesizing module 'control_unit' (0#1) [W:/Documents/Vivado/Generic_CPU_Core/Generic_CPU_Core.srcs/RISC32I/control_unit.sv:3]
+INFO: [Synth 8-6157] synthesizing module 'alu_control' [W:/Documents/Vivado/Generic_CPU_Core/Generic_CPU_Core.srcs/RISC32I/alu_control.sv:3]
+INFO: [Synth 8-6155] done synthesizing module 'alu_control' (0#1) [W:/Documents/Vivado/Generic_CPU_Core/Generic_CPU_Core.srcs/RISC32I/alu_control.sv:3]
+INFO: [Synth 8-6157] synthesizing module 'regfile_2r1w' [W:/Documents/Vivado/Generic_CPU_Core/Generic_CPU_Core.srcs/RISC32I/regfile_2r1w.sv:3]
+INFO: [Synth 8-6155] done synthesizing module 'regfile_2r1w' (0#1) [W:/Documents/Vivado/Generic_CPU_Core/Generic_CPU_Core.srcs/RISC32I/regfile_2r1w.sv:3]
+INFO: [Synth 8-6157] synthesizing module 'id_ex_pipe' [W:/Documents/Vivado/Generic_CPU_Core/Generic_CPU_Core.srcs/RISC32I/id_ex_pipe.sv:3]
+INFO: [Synth 8-6155] done synthesizing module 'id_ex_pipe' (0#1) [W:/Documents/Vivado/Generic_CPU_Core/Generic_CPU_Core.srcs/RISC32I/id_ex_pipe.sv:3]
+WARNING: [Synth 8-7071] port 'branch_o' of module 'id_ex_pipe' is unconnected for instance 'id_ex_inst' [W:/Documents/Vivado/Generic_CPU_Core/Generic_CPU_Core.srcs/RISC32I/core_top.sv:154]
+WARNING: [Synth 8-7071] port 'jump_o' of module 'id_ex_pipe' is unconnected for instance 'id_ex_inst' [W:/Documents/Vivado/Generic_CPU_Core/Generic_CPU_Core.srcs/RISC32I/core_top.sv:154]
+WARNING: [Synth 8-7023] instance 'id_ex_inst' of module 'id_ex_pipe' has 28 connections declared, but only 26 given [W:/Documents/Vivado/Generic_CPU_Core/Generic_CPU_Core.srcs/RISC32I/core_top.sv:154]
+INFO: [Synth 8-6157] synthesizing module 'alu' [W:/Documents/Vivado/Generic_CPU_Core/Generic_CPU_Core.srcs/RISC32I/alu.sv:3]
+INFO: [Synth 8-6155] done synthesizing module 'alu' (0#1) [W:/Documents/Vivado/Generic_CPU_Core/Generic_CPU_Core.srcs/RISC32I/alu.sv:3]
+INFO: [Synth 8-6157] synthesizing module 'ex_mem_pipe' [W:/Documents/Vivado/Generic_CPU_Core/Generic_CPU_Core.srcs/RISC32I/ex_mem_pipe.sv:3]
+INFO: [Synth 8-6155] done synthesizing module 'ex_mem_pipe' (0#1) [W:/Documents/Vivado/Generic_CPU_Core/Generic_CPU_Core.srcs/RISC32I/ex_mem_pipe.sv:3]
+WARNING: [Synth 8-7071] port 'branch_o' of module 'ex_mem_pipe' is unconnected for instance 'ex_mem_inst' [W:/Documents/Vivado/Generic_CPU_Core/Generic_CPU_Core.srcs/RISC32I/core_top.sv:225]
+WARNING: [Synth 8-7071] port 'jump_o' of module 'ex_mem_pipe' is unconnected for instance 'ex_mem_inst' [W:/Documents/Vivado/Generic_CPU_Core/Generic_CPU_Core.srcs/RISC32I/core_top.sv:225]
+WARNING: [Synth 8-7023] instance 'ex_mem_inst' of module 'ex_mem_pipe' has 20 connections declared, but only 18 given [W:/Documents/Vivado/Generic_CPU_Core/Generic_CPU_Core.srcs/RISC32I/core_top.sv:225]
+INFO: [Synth 8-6157] synthesizing module 'data_memory' [W:/Documents/Vivado/Generic_CPU_Core/Generic_CPU_Core.srcs/RISC32I/data_memory.sv:3]
+INFO: [Synth 8-6155] done synthesizing module 'data_memory' (0#1) [W:/Documents/Vivado/Generic_CPU_Core/Generic_CPU_Core.srcs/RISC32I/data_memory.sv:3]
+INFO: [Synth 8-6157] synthesizing module 'mem_wb_pipe' [W:/Documents/Vivado/Generic_CPU_Core/Generic_CPU_Core.srcs/RISC32I/mem_wb.sv:3]
+INFO: [Synth 8-6155] done synthesizing module 'mem_wb_pipe' (0#1) [W:/Documents/Vivado/Generic_CPU_Core/Generic_CPU_Core.srcs/RISC32I/mem_wb.sv:3]
+INFO: [Synth 8-6157] synthesizing module 'wb_mux' [W:/Documents/Vivado/Generic_CPU_Core/Generic_CPU_Core.srcs/RISC32I/wb_mux.sv:3]
+INFO: [Synth 8-6155] done synthesizing module 'wb_mux' (0#1) [W:/Documents/Vivado/Generic_CPU_Core/Generic_CPU_Core.srcs/RISC32I/wb_mux.sv:3]
+INFO: [Synth 8-6155] done synthesizing module 'core_top' (0#1) [W:/Documents/Vivado/Generic_CPU_Core/Generic_CPU_Core.srcs/RISC32I/core_top.sv:3]
+WARNING: [Synth 8-7129] Port addr[31] in module data_memory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[30] in module data_memory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[29] in module data_memory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[28] in module data_memory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[27] in module data_memory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[26] in module data_memory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[25] in module data_memory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[24] in module data_memory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[23] in module data_memory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[22] in module data_memory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[21] in module data_memory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[20] in module data_memory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[19] in module data_memory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[18] in module data_memory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[17] in module data_memory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[16] in module data_memory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[15] in module data_memory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[14] in module data_memory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[13] in module data_memory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[12] in module data_memory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[1] in module data_memory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[0] in module data_memory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port funct3[2] in module control_unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port funct3[1] in module control_unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port funct3[0] in module control_unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port funct7[6] in module control_unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port funct7[5] in module control_unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port funct7[4] in module control_unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port funct7[3] in module control_unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port funct7[2] in module control_unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port funct7[1] in module control_unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port funct7[0] in module control_unit is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1194.355 ; gain = 650.008
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1194.355 ; gain = 650.008
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1194.355 ; gain = 650.008
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1198.582 ; gain = 654.234
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   32 Bit       Adders := 2     
+	   3 Input   32 Bit       Adders := 1     
++---XORs : 
+	   2 Input     32 Bit         XORs := 1     
++---Registers : 
+	               32 Bit    Registers := 11    
+	                5 Bit    Registers := 3     
+	                4 Bit    Registers := 1     
+	                2 Bit    Registers := 3     
+	                1 Bit    Registers := 12    
++---RAMs : 
+	             1024 Bit	(32 X 32 bit)          RAMs := 1     
++---Muxes : 
+	   2 Input   32 Bit        Muxes := 7     
+	 129 Input    8 Bit        Muxes := 1     
+	 126 Input    8 Bit        Muxes := 3     
+	   2 Input    4 Bit        Muxes := 2     
+	   4 Input    4 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3332] Sequential element (regfile_inst/rdata21) is unused and will be removed from module core_top.
+WARNING: [Synth 8-3332] Sequential element (regfile_inst/rdata21__0) is unused and will be removed from module core_top.
+WARNING: [Synth 8-3332] Sequential element (regfile_inst/rdata21__1) is unused and will be removed from module core_top.
+WARNING: [Synth 8-3332] Sequential element (regfile_inst/rdata21__2) is unused and will be removed from module core_top.
+WARNING: [Synth 8-3332] Sequential element (regfile_inst/rdata21__3) is unused and will be removed from module core_top.
+WARNING: [Synth 8-3332] Sequential element (regfile_inst/rdata11) is unused and will be removed from module core_top.
+WARNING: [Synth 8-3332] Sequential element (regfile_inst/rdata11__0) is unused and will be removed from module core_top.
+WARNING: [Synth 8-3332] Sequential element (regfile_inst/rdata11__1) is unused and will be removed from module core_top.
+WARNING: [Synth 8-3332] Sequential element (regfile_inst/rdata11__2) is unused and will be removed from module core_top.
+WARNING: [Synth 8-3332] Sequential element (regfile_inst/rdata11__3) is unused and will be removed from module core_top.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1378.582 ; gain = 834.234
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1394.352 ; gain = 850.004
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1394.352 ; gain = 850.004
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 1626.918 ; gain = 1082.570
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 1626.918 ; gain = 1082.570
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 1626.918 ; gain = 1082.570
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 1626.918 ; gain = 1082.570
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 1626.918 ; gain = 1082.570
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 1626.918 ; gain = 1082.570
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++-+-----+------+
+| |Cell |Count |
++-+-----+------+
++-+-----+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |     0|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 1626.918 ; gain = 1082.570
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 48 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 1626.918 ; gain = 1082.570
+Synthesis Optimization Complete : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 1626.918 ; gain = 1082.570
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1627.922 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1754.504 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: ae6d9209
+INFO: [Common 17-83] Releasing license: Synthesis
+46 Infos, 48 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:11 ; elapsed = 00:00:14 . Memory (MB): peak = 1754.504 ; gain = 1218.996
+INFO: [Common 17-1381] The checkpoint 'W:/Documents/Vivado/RISC32I/RISC32I.runs/synth_1/core_top.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file core_top_utilization_synth.rpt -pb core_top_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Fri Jun 19 02:05:19 2026...

@@ -1,0 +1,24 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  --include "../../../../../../../Apps/2025.2/Vivado/data/rsb/busdef" \
+"../../../../../Generic_CPU_Core/Generic_CPU_Core.srcs/RISC32I/alu.sv" \
+"../../../../../Generic_CPU_Core/Generic_CPU_Core.srcs/RISC32I/alu_control.sv" \
+"../../../../../Generic_CPU_Core/Generic_CPU_Core.srcs/RISC32I/control_unit.sv" \
+"../../../../../Generic_CPU_Core/Generic_CPU_Core.srcs/RISC32I/core_top.sv" \
+"../../../../../Generic_CPU_Core/Generic_CPU_Core.srcs/RISC32I/data_memory.sv" \
+"../../../../../Generic_CPU_Core/Generic_CPU_Core.srcs/RISC32I/decoder.sv" \
+"../../../../../Generic_CPU_Core/Generic_CPU_Core.srcs/RISC32I/ex_mem_pipe.sv" \
+"../../../../../Generic_CPU_Core/Generic_CPU_Core.srcs/RISC32I/id_ex_pipe.sv" \
+"../../../../../Generic_CPU_Core/Generic_CPU_Core.srcs/RISC32I/if_id_pipe.sv" \
+"../../../../../Generic_CPU_Core/Generic_CPU_Core.srcs/RISC32I/if_stage.sv" \
+"../../../../../Generic_CPU_Core/Generic_CPU_Core.srcs/RISC32I/instruction_memory.sv" \
+"../../../../../Generic_CPU_Core/Generic_CPU_Core.srcs/RISC32I/mem_wb.sv" \
+"../../../../../Generic_CPU_Core/Generic_CPU_Core.srcs/RISC32I/program_counter.sv" \
+"../../../../../Generic_CPU_Core/Generic_CPU_Core.srcs/RISC32I/regfile_2r1w.sv" \
+"../../../../../Generic_CPU_Core/Generic_CPU_Core.srcs/RISC32I/wb_mux.sv" \
+"../../../../RISC32I.srcs/sim_1/new/tb_core_top.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

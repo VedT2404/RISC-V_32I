@@ -1,0 +1,21 @@
+0.7
+2020.2
+Nov 14 2025
+19:37:27
+W:/Documents/Vivado/Generic_CPU_Core/Generic_CPU_Core.srcs/RISC32I/alu.sv,1781812540,systemVerilog,,W:/Documents/Vivado/Generic_CPU_Core/Generic_CPU_Core.srcs/RISC32I/alu_control.sv,,alu,,uvm,../../../../../../../Apps/2025.2/Vivado/data/rsb/busdef,,,,,
+W:/Documents/Vivado/Generic_CPU_Core/Generic_CPU_Core.srcs/RISC32I/alu_control.sv,1781812496,systemVerilog,,W:/Documents/Vivado/Generic_CPU_Core/Generic_CPU_Core.srcs/RISC32I/control_unit.sv,,alu_control,,uvm,../../../../../../../Apps/2025.2/Vivado/data/rsb/busdef,,,,,
+W:/Documents/Vivado/Generic_CPU_Core/Generic_CPU_Core.srcs/RISC32I/control_unit.sv,1780928559,systemVerilog,,W:/Documents/Vivado/Generic_CPU_Core/Generic_CPU_Core.srcs/RISC32I/core_top.sv,,control_unit,,uvm,../../../../../../../Apps/2025.2/Vivado/data/rsb/busdef,,,,,
+W:/Documents/Vivado/Generic_CPU_Core/Generic_CPU_Core.srcs/RISC32I/core_top.sv,1781813913,systemVerilog,,W:/Documents/Vivado/Generic_CPU_Core/Generic_CPU_Core.srcs/RISC32I/data_memory.sv,,core_top,,uvm,../../../../../../../Apps/2025.2/Vivado/data/rsb/busdef,,,,,
+W:/Documents/Vivado/Generic_CPU_Core/Generic_CPU_Core.srcs/RISC32I/data_memory.sv,1781813135,systemVerilog,,W:/Documents/Vivado/Generic_CPU_Core/Generic_CPU_Core.srcs/RISC32I/decoder.sv,,data_memory,,uvm,../../../../../../../Apps/2025.2/Vivado/data/rsb/busdef,,,,,
+W:/Documents/Vivado/Generic_CPU_Core/Generic_CPU_Core.srcs/RISC32I/decoder.sv,1780926114,systemVerilog,,W:/Documents/Vivado/Generic_CPU_Core/Generic_CPU_Core.srcs/RISC32I/ex_mem_pipe.sv,,decoder,,uvm,../../../../../../../Apps/2025.2/Vivado/data/rsb/busdef,,,,,
+W:/Documents/Vivado/Generic_CPU_Core/Generic_CPU_Core.srcs/RISC32I/ex_mem_pipe.sv,1781814253,systemVerilog,,W:/Documents/Vivado/Generic_CPU_Core/Generic_CPU_Core.srcs/RISC32I/id_ex_pipe.sv,,ex_mem_pipe,,uvm,../../../../../../../Apps/2025.2/Vivado/data/rsb/busdef,,,,,
+W:/Documents/Vivado/Generic_CPU_Core/Generic_CPU_Core.srcs/RISC32I/id_ex_pipe.sv,1781814263,systemVerilog,,W:/Documents/Vivado/Generic_CPU_Core/Generic_CPU_Core.srcs/RISC32I/if_id_pipe.sv,,id_ex_pipe,,uvm,../../../../../../../Apps/2025.2/Vivado/data/rsb/busdef,,,,,
+W:/Documents/Vivado/Generic_CPU_Core/Generic_CPU_Core.srcs/RISC32I/if_id_pipe.sv,1781812112,systemVerilog,,W:/Documents/Vivado/Generic_CPU_Core/Generic_CPU_Core.srcs/RISC32I/if_stage.sv,,if_id_pipe,,uvm,../../../../../../../Apps/2025.2/Vivado/data/rsb/busdef,,,,,
+W:/Documents/Vivado/Generic_CPU_Core/Generic_CPU_Core.srcs/RISC32I/if_stage.sv,1780110628,systemVerilog,,W:/Documents/Vivado/Generic_CPU_Core/Generic_CPU_Core.srcs/RISC32I/instruction_memory.sv,,if_stage,,uvm,../../../../../../../Apps/2025.2/Vivado/data/rsb/busdef,,,,,
+W:/Documents/Vivado/Generic_CPU_Core/Generic_CPU_Core.srcs/RISC32I/instruction_memory.sv,1780308311,systemVerilog,,W:/Documents/Vivado/Generic_CPU_Core/Generic_CPU_Core.srcs/RISC32I/mem_wb.sv,,instruction_memory,,uvm,../../../../../../../Apps/2025.2/Vivado/data/rsb/busdef,,,,,
+W:/Documents/Vivado/Generic_CPU_Core/Generic_CPU_Core.srcs/RISC32I/mem_wb.sv,1781813759,systemVerilog,,W:/Documents/Vivado/Generic_CPU_Core/Generic_CPU_Core.srcs/RISC32I/program_counter.sv,,mem_wb_pipe,,uvm,../../../../../../../Apps/2025.2/Vivado/data/rsb/busdef,,,,,
+W:/Documents/Vivado/Generic_CPU_Core/Generic_CPU_Core.srcs/RISC32I/program_counter.sv,1781812400,systemVerilog,,W:/Documents/Vivado/Generic_CPU_Core/Generic_CPU_Core.srcs/RISC32I/regfile_2r1w.sv,,program_counter,,uvm,../../../../../../../Apps/2025.2/Vivado/data/rsb/busdef,,,,,
+W:/Documents/Vivado/Generic_CPU_Core/Generic_CPU_Core.srcs/RISC32I/regfile_2r1w.sv,1780938051,systemVerilog,,W:/Documents/Vivado/Generic_CPU_Core/Generic_CPU_Core.srcs/RISC32I/wb_mux.sv,,regfile_2r1w,,uvm,../../../../../../../Apps/2025.2/Vivado/data/rsb/busdef,,,,,
+W:/Documents/Vivado/Generic_CPU_Core/Generic_CPU_Core.srcs/RISC32I/wb_mux.sv,1781811260,systemVerilog,,W:/Documents/Vivado/RISC32I/RISC32I.srcs/sim_1/new/tb_core_top.v,,wb_mux,,uvm,../../../../../../../Apps/2025.2/Vivado/data/rsb/busdef,,,,,
+W:/Documents/Vivado/RISC32I/RISC32I.sim/sim_1/behav/xsim/glbl.v,1756381829,verilog,,,,glbl,,uvm,,,,,,
+W:/Documents/Vivado/RISC32I/RISC32I.srcs/sim_1/new/tb_core_top.v,1781814472,systemVerilog,,,,tb_core_top,,uvm,../../../../../../../Apps/2025.2/Vivado/data/rsb/busdef,,,,,
